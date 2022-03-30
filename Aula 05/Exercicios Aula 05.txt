@@ -1,0 +1,33 @@
+/*1.) Listar todos os dados da tabela - tb_estados */
+select null;
+/*2.) Listar todos os dados da tabela - tb_cidades  */
+select null;
+/*3.) Listar todas as cidades do estado de "Alagoas"  */
+select null;
+/*4.) Listar todos os estados que possuem na sigla uma letra "R"  */
+select null;
+/*5.) Listar as cidades do estado do Amazonas que comecem com a letra "M"  */
+select null;
+/*6.) Listar os estados por ordem crescente de tamanho  */
+select null;
+/*7.) Listar os estados por ordem decrescente de tamanho */
+select null;
+/*8.) Listar a soma total de KM2 do Brasil  */
+select null;
+/*9.) Listar a media de km2 do Brasil */
+select null;
+/*10.) Listar a soma em KM2 dos estados que começam o nome com a letra "P" */
+select null;
+/*11.) Listar a quantidade de cidades de Sergipe  */
+select null;
+/*12.) Listar a quantidade de cidades de todos os estados  */
+select null;
+/*13.) Listar o nome das cidades cujo estado possua um tamanho maior que 500 km2  */
+select null;
+/*14.) Listar as cidades cuja primeira letra do nome seja igual a primeira letra da sigla*/
+select null;
+/*15.) Listar as cidades cuja primeira letra do nome seja igual a primeira letra da sigla 
+e o tamanho do estado seja maior que 300. */
+select null;
+/*16.) listar as cidades e estados cuja cidade possua um nome maior que 15 caracteres */
+select null; 
