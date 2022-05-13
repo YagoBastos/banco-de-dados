@@ -1,0 +1,125 @@
+
+
+### Cauê Cezar, Kauan G. Apolinario, Yago Bastos ###
+
+
+#1.) Listar todos os elementos da tabela clientes
+SELECT clientes.* FROM clientes;
+#2.) listar todos os elementos da tabela veículos
+SELECT veiculos.* FROM veiculos;
+#3.) listar todos os elementos da tabela serviços
+SELECT servicos.* FROM servicos;
+#4.) listar os elementos da tabela “Clientes” que moram no estado de São Paulo
+SELECT clientes.* FROM clientes WHERE estado LIKE "SP";
+#5.) listar os elementos da tabela “Clientes” que não moram no estado de São Paulo
+SELECT clientes.* FROM clientes WHERE estado NOT LIKE "SP";
+#6.) listar os elementos da tabela “Clientes” que moram no bairro Centro em Campinas
+SELECT clientes.* FROM clientes WHERE bairro LIKE "Centro" AND cidade LIKE "Campinas";
+#7.) listar os elementos da tabela “Clientes” que moram no bairro Centro em qualquer cidade
+SELECT clientes.* FROM clientes WHERE bairro LIKE "Centro";
+#8.) listar todos os estados existentes na tabela “Clientes”
+SELECT clientes.estado FROM clientes;
+#9.) listar todos os bairros existentes na tabela “Clientes” sem repetição
+SELECT DISTINCT(clientes.bairro) FROM clientes;
+#10.)listar os nomes da tabela “Clientes” que começam com a letra “R”
+SELECT clientes.nome FROM clientes WHERE clientes.nome LIKE "R%";
+#11.)listar os carros que a Marcos Palhares possui
+SELECT veiculos.* FROM veiculos, clientes WHERE veiculos.codigo = clientes.codigo AND clientes.nome LIKE "Marcos Palhares";
+#12.)listar os carros de 1996 em diante
+SELECT veiculos.* FROM veiculos WHERE ano >= 96;
+#13.)listar os chapas dos carros de cor Branca
+SELECT veiculos.* FROM veiculos WHERE cor LIKE "Branca";
+#14.)listar as chapas dos carros que possuam o número “2” na placa
+SELECT veiculos.* FROM veiculos WHERE chapa LIKE "%2%";
+#15.)listar quantos gols existem na tabela veículos
+SELECT veiculos.* FROM veiculos WHERE modelo LIKE "gols";
+#16.)listar os itens relacionados a “Mercedes”
+SELECT NULL;
+#17.)listar todos os carros de cor “cinza”
+SELECT NULL;
+#18.)listar todos os carros cuja cor começa pela letra “V”
+SELECT NULL;
+#19.)listar o carro mais velho
+SELECT NULL;
+#20.)listar os serviços que ainda estão em aberto
+SELECT NULL;
+#21.)listar os serviços que foram feitos em menos de 10 dias
+SELECT NULL;
+#22.)listar os serviços feitos no ano de 1995
+SELECT NULL;
+#23.)exiba a ordem de serviço cujo placa igual a GGF-2111
+SELECT NULL;
+#24.)listar as ordens de serviços que já foram finalizadas
+SELECT NULL;
+#25.)verifique o valor final gasto pela ordem de serviço número 1
+SELECT NULL;
+#26.)verifique o valor final gasto pela ordem de serviço número 10
+SELECT NULL;
+#27.)exiba os itens avaliados pela ordem de serviço número 4
+SELECT NULL;
+#28.)exiba a quantidade geral de cada ordem de serviço na tabela itens
+SELECT NULL;
+#29.)exiba o valor de cada peça juntamente com a descrição
+SELECT NULL;
+#30.)exiba tudo do carro GGF-2111, tais como: modelo, ordem_serviço, quantidade de cada item utilizado e quais as peças/itens utilzados.
+SELECT NULL;
+#31.)Exibir todas as cidades que os clientes moram (sem repetições)
+SELECT NULL;
+#32.)Colocar os nomes dos clientes em ordem decrescente
+SELECT NULL;
+#33.)Exibir os nomes começados por “R” em ordem crescente
+SELECT NULL;
+#34.)Listar as pessoas que moram em “SP” e possuem CORSA
+SELECT NULL;
+#35.)Listar todas as cores possíveis de veículos
+SELECT NULL;
+#36.)Exibir o cód_peça, descrição para as peças mais caras que R$ 1,00
+SELECT NULL;
+#37.)Exibir a média de valores da tabela PEC_SERV
+SELECT NULL;
+#38.)Listar os carros que já tiveram mais de uma ordem de serviço
+SELECT NULL;
+#39.)Listar as ordens de serviço que utilizaram mais de 2 itens
+SELECT NULL;
+#40.)Listar a quantidade total de itens utilizados em cada ordem de serviço
+SELECT NULL;
+#41.)Listar todas as peças utilizadas pelo cliente “3”
+SELECT NULL;
+#42.)Listar todos os veículos que utilizaram a peça com código “2”
+SELECT NULL;
+#43.)Exibir as peça que começam com a letra “R” e “C”
+SELECT NULL;
+#44.)Exibir a descrição das peças cujos valores variam entre 100 e 500
+SELECT NULL;
+#45.)Exibir a somatória de valores da tabela pec_serv
+SELECT NULL;
+#46.)Exibir as ordens de serviço que utilizaram o item número 1
+SELECT NULL;
+#47.)Exibir os veículos que ainda estão com a ordem de serviço em aberto.
+SELECT NULL;
+#48.)Exibir o valor gasto por um usuário se fosse comprar 5 pneus e 4 calotas
+SELECT NULL;
+#49.)Exibir os valores e os clientes que gastaram mais que R$ 500,00
+SELECT NULL;
+#50.)Dada uma determinada chapa (escolhida por você), exiba as peças, quantidades e valor gasto com o carro.
+SELECT NULL;
+#51.)Indique a ordem de serviço já finalizada que demorou mais para ser executada
+SELECT NULL;
+#52.)Indique os veículos que ainda estão em manutenção
+SELECT NULL;
+#53.)Indique a quantidade de veículos por cliente.
+SELECT NULL;
+#54.)Exiba com letras maiúsculas os nomes dos clientes
+SELECT NULL;
+#55.)Exiba o valor médio gasto por carro.
+SELECT NULL;
+#56.)Exiba a chapa do carro, ano dos carros que apresentaram manutenção com apenas um ano de uso.
+SELECT NULL;
+#57.)Atualize as peças em 15%.
+SELECT NULL;
+#58.)Indique a diferença em dias da primeira manutenção até a última (já finalizada)
+SELECT NULL;
+#59.)Exiba o nome do cliente e carro cuja inicial da placa seja igual a inicial do nome
+SELECT NULL;
+#60.)Quantidade de carros de cada montadora existente no arquivo.
+SELECT NULL;
